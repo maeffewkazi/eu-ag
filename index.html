@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Euphorie</title>
+    <meta name="description" content="...">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/app30f1.css">
+    <meta property="og:title" content="Euphorie">
+    <meta property="og:description" content="...">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index.html">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.html">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+    <style>
+        @keyframes left {
+            from {
+                left: -0px;
+            }
+            to {
+                left: -150%;
+            }
+        }
+        
+        #splash {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            z-index: 600;
+            background-color: #ffffff;
+        }
+        
+        #splash__container {
+            box-shadow: 0 0 0 #000;
+            transform: translate3d(0, 0, 0);
+            top: 40%;
+            left: 0px;
+            width: 300%;
+            animation: left 7s infinite linear;
+            position: absolute;
+        }
+        
+        .splash__design-studio {
+            width: 50%;
+            float: left;
+            padding-right: 5%;
+        }
+    </style>
+</head>
+
+<body class="splash">
+    <div id="splash" class="js-loader">
+        <div id="splash__container">
+
+
+            <svg class="splash__design-studio" enable-background="new 0 0 1455.26 116.48" version="1.1" viewBox="0 0 1455.3 116.48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">.st0{fill:#221F1F;}</style>
+  <path class="st0" d="m306.2 0"/>
+  <path d="m0 113.85v-105.84h29.18c16.03 0 29.03 4.69 38.86 14.06 9.98 9.37 14.97 22.38 14.97 38.86s-4.99 29.48-14.97 38.86c-9.83 9.37-22.83 14.06-38.86 14.06h-29.18zm28.43-11.19c25.55 0 41.58-13.91 41.58-41.58 0-27.82-16.03-41.88-41.58-41.88h-15.73v83.46h15.73z"/>
+  <path d="M131.88,114.37V8.52h66.23v11.19h-53.52v34.32h49.29v11.19h-49.29v37.95h53.98v11.19H131.88z"/>
+  <path d="m322.39 84.88c0 8.92-3.63 16.48-10.73 22.53s-16.18 9.07-27.52 9.07c-11.64 0-21.17-3.02-28.58-9.22s-11.94-14.06-13.61-23.59l11.19-5.9c2.87 18.14 14.21 27.52 31 27.52 7.86 0 14.06-1.97 18.6-5.75 4.69-3.78 6.95-8.47 6.95-13.76 0-11.94-8.77-17.84-27.97-21.47-23.13-4.23-34.78-14.36-34.78-30.39 0-8.01 3.33-14.67 9.98-19.81 6.66-5.14 15.12-7.71 25.4-7.71 18.6 0 32.96 9.83 38.25 25.4l-10.28 6.05c-2.27-6.5-5.89-11.49-10.58-15.12s-10.59-5.44-17.39-5.44-12.25 1.51-16.63 4.39c-4.24 2.87-6.35 6.95-6.35 12.25 0 10.43 9.08 16.33 28.88 20.11 23.13 4.23 34.17 14.06 34.17 30.84z"/>
+  <path d="M373.34,114.37V8.52h12.7v105.84H373.34z"/>
+  <path d="m523.94 114.37-3.63-18.3c-6.05 12.55-17.69 20.41-33.87 20.41-14.82 0-26.91-5.14-36.29-15.42-9.37-10.43-14.06-23.59-14.06-39.62 0-15.57 5.14-28.58 15.27-39.16s22.38-15.87 36.44-15.87c20.41 0 35.84 9.83 44.15 25.71l-9.68 6.95c-8.92-15.12-19.51-21.47-34.63-21.47-10.58 0-19.65 4.23-27.21 12.55s-11.34 18.75-11.34 31.3c0 13 3.48 23.59 10.28 31.75 6.8 8.01 16.03 12.1 27.52 12.1 18.9 0 30.24-12.85 33.11-33.42h-37.2v-10.59h49.9v53.07h-8.76z"/>
+  <path d="m585.02 114.37v-105.85h13.46l50.35 79.68c2.42 4.08 3.93 6.8 4.54 8.32v-88h12.1v105.84h-13.46l-50.35-79.68c-2.42-4.08-3.93-6.8-4.54-8.32v88h-12.1z"/>
+  <path d="m869.13 84.88c0 8.92-3.63 16.48-10.74 22.53s-16.18 9.07-27.52 9.07c-11.65 0-21.17-3.02-28.58-9.22s-11.94-14.06-13.61-23.59l11.19-5.9c2.87 18.14 14.21 27.52 31 27.52 7.86 0 14.06-1.97 18.6-5.75 4.69-3.78 6.95-8.47 6.95-13.76 0-11.94-8.77-17.84-27.97-21.47-23.14-4.23-34.78-14.36-34.78-30.39 0-8.01 3.33-14.67 9.98-19.81s15.12-7.71 25.4-7.71c18.6 0 32.96 9.83 38.25 25.4l-10.28 6.05c-2.27-6.5-5.9-11.49-10.59-15.12s-10.59-5.44-17.39-5.44-12.25 1.51-16.63 4.39c-4.23 2.87-6.35 6.95-6.35 12.25 0 10.43 9.07 16.33 28.88 20.11 23.15 4.23 34.19 14.06 34.19 30.84z"/>
+  <path d="M906.77,19.71V8.52h78.63v11.19h-32.96v94.65h-12.7V19.71H906.77z"/>
+  <path d="m1108.3 8.52v70.31c0 11.64-3.63 20.87-10.89 27.67-7.11 6.65-16.63 9.98-28.27 9.98s-21.17-3.33-28.43-9.98c-7.11-6.8-10.74-16.03-10.74-27.67v-70.31h12.7v71.07c0 7.41 2.27 13.46 6.95 18.45 4.69 4.84 11.19 7.26 19.51 7.26 8.31 0 14.82-2.42 19.51-7.26 4.69-4.99 6.95-11.04 6.95-18.45v-71.07h12.71z"/>
+  <path d="m1157.9 114.37v-105.85h29.18c16.03 0 29.03 4.69 38.86 14.06 9.98 9.37 14.97 22.38 14.97 38.86s-4.99 29.48-14.97 38.86c-9.83 9.37-22.83 14.06-38.86 14.06h-29.18zm28.43-11.19c25.55 0 41.58-13.91 41.58-41.58 0-27.82-16.03-41.88-41.58-41.88h-15.73v83.46h15.73z"/>
+  <path d="m1289.3 114.37v-105.85h12.7v105.84h-12.7z"/>
+  <path d="m1440.4 101.21c-9.83 10.13-21.92 15.27-36.44 15.27-14.36 0-26.46-5.14-36.29-15.27s-14.67-23.44-14.67-39.62c0-16.33 4.84-29.64 14.67-39.77 9.83-10.28 21.92-15.42 36.29-15.42 14.52 0 26.61 5.14 36.44 15.42 9.83 10.13 14.82 23.44 14.82 39.62s-4.99 29.49-14.82 39.77zm-36.44 4.08c11.04 0 20.26-4.08 27.37-12.1 7.26-8.17 10.88-18.75 10.88-31.75 0-13.01-3.63-23.59-10.88-31.6-7.11-8.16-16.33-12.25-27.37-12.25s-20.11 4.08-27.22 12.25c-7.11 8.01-10.73 18.6-10.73 31.6s3.63 23.59 10.73 31.75c7.11 8.02 16.19 12.1 27.22 12.1z"/>
+</svg>
+
+            <svg class="splash__design-studio" enable-background="new 0 0 1455.26 116.48" version="1.1" viewBox="0 0 1455.3 116.48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">.st0{fill:#221F1F;}</style>
+  <path class="st0" d="m306.2 0"/>
+  <path d="m0 113.85v-105.84h29.18c16.03 0 29.03 4.69 38.86 14.06 9.98 9.37 14.97 22.38 14.97 38.86s-4.99 29.48-14.97 38.86c-9.83 9.37-22.83 14.06-38.86 14.06h-29.18zm28.43-11.19c25.55 0 41.58-13.91 41.58-41.58 0-27.82-16.03-41.88-41.58-41.88h-15.73v83.46h15.73z"/>
+  <path d="M131.88,114.37V8.52h66.23v11.19h-53.52v34.32h49.29v11.19h-49.29v37.95h53.98v11.19H131.88z"/>
+  <path d="m322.39 84.88c0 8.92-3.63 16.48-10.73 22.53s-16.18 9.07-27.52 9.07c-11.64 0-21.17-3.02-28.58-9.22s-11.94-14.06-13.61-23.59l11.19-5.9c2.87 18.14 14.21 27.52 31 27.52 7.86 0 14.06-1.97 18.6-5.75 4.69-3.78 6.95-8.47 6.95-13.76 0-11.94-8.77-17.84-27.97-21.47-23.13-4.23-34.78-14.36-34.78-30.39 0-8.01 3.33-14.67 9.98-19.81 6.66-5.14 15.12-7.71 25.4-7.71 18.6 0 32.96 9.83 38.25 25.4l-10.28 6.05c-2.27-6.5-5.89-11.49-10.58-15.12s-10.59-5.44-17.39-5.44-12.25 1.51-16.63 4.39c-4.24 2.87-6.35 6.95-6.35 12.25 0 10.43 9.08 16.33 28.88 20.11 23.13 4.23 34.17 14.06 34.17 30.84z"/>
+  <path d="M373.34,114.37V8.52h12.7v105.84H373.34z"/>
+  <path d="m523.94 114.37-3.63-18.3c-6.05 12.55-17.69 20.41-33.87 20.41-14.82 0-26.91-5.14-36.29-15.42-9.37-10.43-14.06-23.59-14.06-39.62 0-15.57 5.14-28.58 15.27-39.16s22.38-15.87 36.44-15.87c20.41 0 35.84 9.83 44.15 25.71l-9.68 6.95c-8.92-15.12-19.51-21.47-34.63-21.47-10.58 0-19.65 4.23-27.21 12.55s-11.34 18.75-11.34 31.3c0 13 3.48 23.59 10.28 31.75 6.8 8.01 16.03 12.1 27.52 12.1 18.9 0 30.24-12.85 33.11-33.42h-37.2v-10.59h49.9v53.07h-8.76z"/>
+  <path d="m585.02 114.37v-105.85h13.46l50.35 79.68c2.42 4.08 3.93 6.8 4.54 8.32v-88h12.1v105.84h-13.46l-50.35-79.68c-2.42-4.08-3.93-6.8-4.54-8.32v88h-12.1z"/>
+  <path d="m869.13 84.88c0 8.92-3.63 16.48-10.74 22.53s-16.18 9.07-27.52 9.07c-11.65 0-21.17-3.02-28.58-9.22s-11.94-14.06-13.61-23.59l11.19-5.9c2.87 18.14 14.21 27.52 31 27.52 7.86 0 14.06-1.97 18.6-5.75 4.69-3.78 6.95-8.47 6.95-13.76 0-11.94-8.77-17.84-27.97-21.47-23.14-4.23-34.78-14.36-34.78-30.39 0-8.01 3.33-14.67 9.98-19.81s15.12-7.71 25.4-7.71c18.6 0 32.96 9.83 38.25 25.4l-10.28 6.05c-2.27-6.5-5.9-11.49-10.59-15.12s-10.59-5.44-17.39-5.44-12.25 1.51-16.63 4.39c-4.23 2.87-6.35 6.95-6.35 12.25 0 10.43 9.07 16.33 28.88 20.11 23.15 4.23 34.19 14.06 34.19 30.84z"/>
+  <path d="M906.77,19.71V8.52h78.63v11.19h-32.96v94.65h-12.7V19.71H906.77z"/>
+  <path d="m1108.3 8.52v70.31c0 11.64-3.63 20.87-10.89 27.67-7.11 6.65-16.63 9.98-28.27 9.98s-21.17-3.33-28.43-9.98c-7.11-6.8-10.74-16.03-10.74-27.67v-70.31h12.7v71.07c0 7.41 2.27 13.46 6.95 18.45 4.69 4.84 11.19 7.26 19.51 7.26 8.31 0 14.82-2.42 19.51-7.26 4.69-4.99 6.95-11.04 6.95-18.45v-71.07h12.71z"/>
+  <path d="m1157.9 114.37v-105.85h29.18c16.03 0 29.03 4.69 38.86 14.06 9.98 9.37 14.97 22.38 14.97 38.86s-4.99 29.48-14.97 38.86c-9.83 9.37-22.83 14.06-38.86 14.06h-29.18zm28.43-11.19c25.55 0 41.58-13.91 41.58-41.58 0-27.82-16.03-41.88-41.58-41.88h-15.73v83.46h15.73z"/>
+  <path d="m1289.3 114.37v-105.85h12.7v105.84h-12.7z"/>
+  <path d="m1440.4 101.21c-9.83 10.13-21.92 15.27-36.44 15.27-14.36 0-26.46-5.14-36.29-15.27s-14.67-23.44-14.67-39.62c0-16.33 4.84-29.64 14.67-39.77 9.83-10.28 21.92-15.42 36.29-15.42 14.52 0 26.61 5.14 36.44 15.42 9.83 10.13 14.82 23.44 14.82 39.62s-4.99 29.49-14.82 39.77zm-36.44 4.08c11.04 0 20.26-4.08 27.37-12.1 7.26-8.17 10.88-18.75 10.88-31.75 0-13.01-3.63-23.59-10.88-31.6-7.11-8.16-16.33-12.25-27.37-12.25s-20.11 4.08-27.22 12.25c-7.11 8.01-10.73 18.6-10.73 31.6s3.63 23.59 10.73 31.75c7.11 8.02 16.19 12.1 27.22 12.1z"/>
+</svg> </div>
+    </div>
+    <div id="app">
+        <div class="js-cursor custom-cursor">
+            <span class="js-cursor-text custom-cursor__text"></span>
+        </div>
+        <nav class="navigation  bg-green-600 text-white  h-screen w-full fixed top-0 left-0 z-20 text-left opacity-0">
+            <div class="navigation__content h-screen p-6 md:p-18 relative">
+                <ul class="navigation__links--primary">
+                    <li class="type-5xl md:-mt-2">
+                        <a href="index.html">
+            Home
+          </a>
+                    </li>
+                    <li class="type-5xl md:-mt-2">
+                        <a href="about.html">
+            About
+          </a>
+                    </li>
+                    <li class="type-5xl md:-mt-2">
+                        <a href="projects.html">
+            Projects
+          </a>
+                    </li>
+                    <li class="type-5xl md:-mt-2">
+                        <a href="latest.html">
+            Events & Updates
+          </a>
+                    </li>
+                </ul>
+                <div class="navigation__links--secondary md:w-full md:max-w-sm md:flex justify-between type-base absolute bottom-0 mb-6 md:mb-18">
+                    <ul>
+                        <li class="md:mb-1">
+                            <a href="mailto:gruezi@euphorie-ag.ch">gruezi@euphorie-ag.ch</a>
+                        </li>
+                        <li>
+                            <a href="tel:"></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="md:mb-1">
+                            <a href="https://www.instagram.com/euphorie-ag/" target="_blank" rel="noreferrer noopener">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/euphorie-ag" target="_blank" rel="noreferrer noopener">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="absolute bottom-0 right-0 my-8 md:my-18 pr-6 md:pr-18">
+                    <button class="navigation-close__btn  navigation-close__btn--hero-header text-white border-white  flex items-center focus:outline-none relative z-30 pointer-events-none">
+    <span class="navigation-close__icon mr-5 border-icon block w-3 h-3 rounded-full"></span>
+    <span class="navigation-close__text block type-xs text-black uppercase tracking-widest">Close</span>
+  </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="navigation-dot fixed block top-0 left-0 rounded-circle z-20 transform scale-0  bg-green-600 "></div>
+
+        <div id="js-content" class="smooth-scroll">
+            <div class="site-container">
+                <header id="header" class="header--hero w-screen max-w-none h-screen bg-grey-200 relative left-50 right-50 -ml-50vw -mr-50vw p-6 pt-8 md:p-18 z-10">
+                    <div class="max-w-69 pr-12">
+                        <div class="type-5xl text-black">
+                            <div data-delay="0" class="js-word-by-word leading-none">
+                                <div><span>We</span></div>
+                                <div><span>are</span></div>
+                                <div><span>designers,</span></div>
+                                <div><span>strategists,</span></div>
+                                <div><span>developers</span></div>
+                                <div><span>and</span></div>
+                                <div><span>maintainers</span></div>
+
+                                <div><span>who</span></div>
+                                <div><span>all</span></div>
+                                <div><span>love</span></div>
+                                <div><span>clarity,</span></div>
+                                <div><span>and</span></div>
+                                <div><span>the</span></div>
+                                <div><span>conversations</span></div>
+                                <div><span>that</span></div>
+                                <div><span>take</span></div>
+                                <div><span>us</span></div>
+                                <div><span>there.</span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-wrap items-center absolute left-0 bottom-0 mb-8 md:mb-18 mx-auto px-6 md:px-18">
+                        <div class="w-1/2 md:w-1/3 flex-grow-0">
+                            <a href="index.html">
+                                <img src="assets/img/euphorie-logo--black.svg" alt="Euphorie Logo" class="w-28">
+                            </a>
+                        </div>
+                        <span class="hidden md:block type-xs text-black uppercase tracking-widest md:w-1/3 text-center flex-grow-0">
+     Homes Made By Switzerland.
+    </span>
+                        <div class="w-1/2 md:w-1/3 text-right flex-grow-0 flex justify-end items-center">
+
+                            <div class="ml-16 lg:ml-22">
+                                <div class="relative">
+                                    <button class="navigation-open__btn  navigation-open__btn--hero-header  flex items-center focus:outline-none relative z-30 text-black border-black">
+      <span class="navigation-open__icon mr-5  bg-black "></span>
+      <span class="navigation-open__text block type-xs text-black uppercase tracking-widest">Menu</span>
+    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="relative pt-20 md:pt-44" id="homepage-projects">
+                    <div class="relative z-10" data-scroll data-scroll-sticky data-scroll-target="#homepage-projects">
+                        <a href="projects.html" class="hidden lg:block absolute top-20 right-0 type-3xl transform rotate-90 origin-right mr-5 -mt-8 fade-in">
+        Your dream home(s)...
+      </a>
+                    </div>
+                    <div class="space-y-20 md:space-y-40">
+                        <div class="" id="SingleBlock">
+                            <div class="lg:w-21/25">
+                                <a href="projects/sandstrasse.html">
+                                    <div class="relative parallax fade-in" style="padding-bottom: 58.325581395349%">
+                                        <img class="js-show-cursor cursor-none absolute inset-0 w-full h-full object-cover" data-cursor-type="view" src="assets/img/projects/sandstrasse/outdoors01.jpg" alt="AnimatedSpreads" sizes="(max-width: 600px) 480px, 100vw" srcset="assets/img/projects/sandstrasse/outdoors01.jpg 1075w, assets/img/projects/sandstrasse/outdoors01.jpg 329w">
+                                    </div>
+
+                                </a>
+                                <h2 class="type-3xl mt-10 md:mt-16">
+                                    <a href="projects/sandstrasse.html">
+                                        <div data-delay="0" class="js-word-by-word leading-none">
+                                            <div><span>MFH</span></div>
+                                            <div><span>Sandstrasse</span></div>
+                                        </div>
+                                    </a>
+                                </h2>
+                                <p class="type-base mt-5 max-w-lg fade-in" data-delay="0.1">Come for the view but be prepared to stay for good.</p>
+                            </div>
+                        </div>
+                        <div class="" id="SingleBlock">
+                            <div class="lg:w-21/25">
+                                <a href="projects/sandstrasse.html">
+                                    <div class="relative parallax fade-in" style="padding-bottom: 58.325581395349%">
+                                        <img class="js-show-cursor cursor-none absolute inset-0 w-full h-full object-cover" data-cursor-type="view" src="assets/img/projects/sandstrasse/outdoors01.jpg" alt="AnimatedSpreads" sizes="(max-width: 600px) 480px, 100vw" srcset="assets/img/projects/sandstrasse/outdoors01.jpg 1075w, assets/img/projects/sandstrasse/outdoors01.jpg 329w">
+                                    </div>
+
+                                </a>
+                                <h2 class="type-3xl mt-10 md:mt-16">
+                                    <a href="projects/sandstrasse.html">
+                                        <div data-delay="0" class="js-word-by-word leading-none">
+                                            <div><span>MFH</span></div>
+                                            <div><span>Sandstrasse</span></div>
+                                        </div>
+                                    </a>
+                                </h2>
+                                <p class="type-base mt-5 max-w-lg fade-in" data-delay="0.1">Come for the view but be prepared to stay for good.</p>
+                            </div>
+                        </div>
+                        <div class="" id="SingleBlock">
+                            <div class="lg:w-21/25">
+                                <a href="projects/sandstrasse.html">
+                                    <div class="relative parallax fade-in" style="padding-bottom: 58.325581395349%">
+                                        <img class="js-show-cursor cursor-none absolute inset-0 w-full h-full object-cover" data-cursor-type="view" src="assets/img/projects/sandstrasse/outdoors01.jpg" alt="AnimatedSpreads" sizes="(max-width: 600px) 480px, 100vw" srcset="assets/img/projects/sandstrasse/outdoors01.jpg 1075w, assets/img/projects/sandstrasse/outdoors01.jpg 329w">
+                                    </div>
+
+                                </a>
+                                <h2 class="type-3xl mt-10 md:mt-16">
+                                    <a href="projects/sandstrasse.html">
+                                        <div data-delay="0" class="js-word-by-word leading-none">
+                                            <div><span>MFH</span></div>
+                                            <div><span>Sandstrasse</span></div>
+                                        </div>
+                                    </a>
+                                </h2>
+                                <p class="type-base mt-5 max-w-lg fade-in" data-delay="0.1">Come for the view but be prepared to stay for good.</p>
+                            </div>
+                        </div>
+                        <div class="lg:flex lg:-ml-28 space-y-20 md:space-y-40 lg:space-y-0" id="DoubleBlockMdLg">
+                            <div class="lg:w-11/25 lg:pl-28">
+                                <div>
+                                    <a href="projects/somebody.html">
+                                        <div class="relative parallax fade-in" style="padding-bottom: 78.014184397163%">
+                                            <img class="js-show-cursor cursor-none absolute inset-0 w-full h-full object-cover" data-cursor-type="view" src="assets/img/resized/double-card-md/somebody-home.png" alt="somebody home " sizes="(max-width: 600px) 480px, 100vw" srcset="/assets/img/resized/double-card-md/somebody-home.png 564w, /assets/img/resized/double-card-md--mobile/somebody-home.png 329w">
+                                        </div>
+
+                                    </a>
+                                    <h2 class="type-3xl mt-10 md:mt-16">
+                                        <a href="projects/somebody.html">
+                                            <div data-delay="0" class="js-word-by-word leading-none">
+                                                <div><span>Somebody</span></div>
+                                            </div>
+                                        </a>
+                                    </h2>
+                                    <p class="type-base mt-5 fade-in" data-delay="0.1">An independent agency for actors and commercial artists.</p>
+                                </div>
+                            </div>
+                            <div class="lg:w-13/25 lg:pl-28">
+                                <div>
+                                    <a href="projects/ralston-college.html">
+                                        <div class="relative parallax fade-in" style="padding-bottom: 93.225806451613%">
+                                            <img class="js-show-cursor cursor-none absolute inset-0 w-full h-full object-cover" data-cursor-type="view" src="assets/img/resized/double-card-lg/rr.jpg" alt="RR " sizes="(max-width: 600px) 480px, 100vw" srcset="/assets/img/resized/double-card-lg/rr.jpg 620w, /assets/img/resized/double-card-lg--mobile/rr.jpg 329w">
+                                        </div>
+
+                                    </a>
+                                    <h2 class="type-3xl mt-10 md:mt-16">
+                                        <a href="projects/ralston-college.html">
+                                            <div data-delay="0" class="js-word-by-word leading-none">
+                                                <div><span>Ralston</span></div>
+                                                <div><span>College</span></div>
+                                            </div>
+                                        </a>
+                                    </h2>
+                                    <p class="type-base mt-5 fade-in" data-delay="0.1">To think is to be free.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="projects.html" class="block lg:hidden type-3xl mb-32 md:mb-0 mt-22 md:mt-40 fade-in">
+      See All Projects
+    </a>
+                </div>
+                <section class="js-fade-in-background fade-in-background site-section relative w-screen max-w-none left-50 right-50 -ml-50vw -mr-50vw py-20 md:py-44 z-20" data-bg-colour="bg-black">
+                    <div class="px-6 md:pl-18 md:pr-0">
+                        <div>
+                            <div class="type-5xl text-grey-500">
+                                <a href="about.html">
+                                    <div data-delay="0" class="js-word-by-word leading-none">
+                                        <div><span>About</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="type-5xl  text-white  md:max-w-xl">
+                                <div data-delay="0" class="js-word-by-word leading-none">
+                                    <div><span>An</span></div>
+                                    <div><span>insight-led</span></div>
+                                    <div><span>design</span></div>
+                                    <div><span>studio.</span></div>
+                                </div>
+                            </div>
+                            <p class="type-base mt-7 md:max-w-xl fade-in" data-delay="0.1">
+                                We define, explore, then refine, to produce work that is more beautiful, functional and meaningful.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative fade-in mt-24 md:mt-30" data-delay="0.1">
+                        <div class="js-carousel drag-carousel swiper-container cursor-none js-show-cursor md:pl-18" data-cursor-type="drag">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide w-4/5 md:w-2/6 mr-12 md:mr-18 lg:mr-28">
+                                    <picture>
+                                        <source srcset="/assets/img/projects/sandstrasse/outdoors01.jpg" media="(min-width: 640px)">
+                                        <img src="assets/img/projects/sandstrasse/outdoors01.jpg" class="w-full transition-all duration-700" alt="thursdaystudio about 2">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide w-4/5 md:w-2/6 mr-12 md:mr-18 lg:mr-28">
+                                    <picture>
+                                        <source srcset="/assets/img/projects/sandstrasse/outdoors01.jpg" media="(min-width: 640px)">
+                                        <img src="assets/img/projects/sandstrasse/outdoors01.jpg" class="w-full transition-all duration-700" alt="thursdaystudio about 2">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide w-4/5 md:w-2/6 mr-12 md:mr-18 lg:mr-28">
+                                    <picture>
+                                        <source srcset="/assets/img/projects/sandstrasse/outdoors01.jpg" media="(min-width: 640px)">
+                                        <img src="assets/img/projects/sandstrasse/outdoors01.jpg" class="w-full transition-all duration-700" alt="thursdaystudio about 2">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide w-4/5 md:w-2/6 mr-12 md:mr-18 lg:mr-28">
+                                    <picture>
+                                        <source srcset="/assets/img/projects/sandstrasse/outdoors01.jpg" media="(min-width: 640px)">
+                                        <img src="assets/img/projects/sandstrasse/outdoors01.jpg" class="w-full transition-all duration-700" alt="thursdaystudio about 2">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/img/made-in-winchester--white.svg" class="js-rotate-stamp hidden md:block absolute top-0 right-0 z-20 w-44 h-44 pointer-events-none -mt-16 mr-64" alt="made in winchester">
+                </section>
+                <section class="site-section">
+                    <div>
+                        <div class="type-5xl text-grey-500">
+                            <a href="latest.html">
+                                <div data-delay="0" class="js-word-by-word leading-none">
+                                    <div><span>Latest</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="type-5xl  text-black  md:max-w-xl">
+                            <div data-delay="0" class="js-word-by-word leading-none">
+                                <div><span>Events,</span></div>
+                                <div><span>blogs,</span></div>
+                                <div><span>workshops</span></div>
+                                <div><span>and</span></div>
+                                <div><span>industry</span></div>
+                                <div><span>news.</span></div>
+                            </div>
+                        </div>
+                        <p class="type-base mt-7 md:max-w-xl fade-in" data-delay="0.1">
+                            Fresh from our light-filled studio overlooking Winchester.
+                        </p>
+                    </div>
+
+                    <div class="md:hidden mt-16">
+                        <div class="js-insights-carousel drag-carousel swiper-container cursor-none js-show-cursor w-screen max-w-none relative left-50 right-50 -ml-50vw -mr-50vw" data-cursor-type="drag">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide w-full">
+                                    <a href="latest/the-home-of-thursday.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/pinned-post-thumbnail/dsc02705-3.jpg" />
+                                    </a>
+                                    <h3 class="hidden md:block type-xl">
+                                        <a href="latest/the-home-of-thursday.html">
+        The home of Thursday
+      </a>
+                                    </h3>
+                                    <h3 class="block md:hidden type-lg">
+                                        <a href="latest/the-home-of-thursday.html">
+        The home of Thursday
+      </a>
+                                    </h3>
+                                    <a href="latest/the-home-of-thursday.html" class="hidden md:block type-xl text-grey-500 mb-16">
+      Read more
+    </a>
+                                    <a href="latest/the-home-of-thursday.html" class="block md:hidden type-base mb-16">
+      Read more
+    </a>
+                                </div>
+                                <div class="swiper-slide w-full mr-12">
+                                    <a href="https://open.spotify.com/playlist/12qvfF9NQauCrZ3uEAakj3?si=e458b8cc382e47ce" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14" target="_blank">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/asset-7-at-2x-100.jpg" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="https://open.spotify.com/playlist/12qvfF9NQauCrZ3uEAakj3?si=e458b8cc382e47ce" target="_blank">
+        The summer has arrived and so has the new quarterly Thursday playlist. Enjoy it
+      </a>
+                                    </h3>
+                                    <a href="https://open.spotify.com/playlist/12qvfF9NQauCrZ3uEAakj3?si=e458b8cc382e47ce" class="type-base mb-16 block" target="_blank">
+      Listen Now
+    </a>
+                                </div>
+                                <div class="swiper-slide w-full mr-12">
+                                    <a href="latest/strategist.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/frame-25.png" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="latest/strategist.html">
+        Job Opening: Strategist
+      </a>
+                                    </h3>
+                                    <a href="latest/strategist.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                                <div class="swiper-slide w-full mr-12">
+                                    <a href="latest/hiring-full-stack-developer.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/frame-29.png" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="latest/hiring-full-stack-developer.html">
+        Job Opening: Full Stack Developer
+      </a>
+                                    </h3>
+                                    <a href="latest/hiring-full-stack-developer.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                                <div class="swiper-slide w-full mr-12">
+                                    <a href="latest/dba-winners.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/cfa-thurs-thumb2.png" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="latest/dba-winners.html">
+        We are really proud and excited to shout about Thursday winning our first Design Effectiveness Award, 2021.
+      </a>
+                                    </h3>
+                                    <a href="latest/dba-winners.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                                <div class="swiper-slide w-full mr-12">
+                                    <a href="events/no-more-bullsht.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/asset-80-1.jpg" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="events/no-more-bullsht.html">
+        Thursday Thoughts
+      </a>
+                                    </h3>
+                                    <a href="events/no-more-bullsht.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                                <div class="swiper-slide w-full mr-12">
+                                    <a href="https://open.spotify.com/playlist/5O2PeoubibTJGuvGxP2ej1?si=ciOulSchQrO7LyT5eXaKkw" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14" target="_blank">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/asset-4-at-2x-100.jpg" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="https://open.spotify.com/playlist/5O2PeoubibTJGuvGxP2ej1?si=ciOulSchQrO7LyT5eXaKkw" target="_blank">
+        New playlist. Sit back, grab a coffee. We&#039;ve got you.
+      </a>
+                                    </h3>
+                                    <a href="https://open.spotify.com/playlist/5O2PeoubibTJGuvGxP2ej1?si=ciOulSchQrO7LyT5eXaKkw" class="type-base mb-16 block" target="_blank">
+      Listen Now
+    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden md:flex flex-wrap md:flex-nowrap">
+                        <div id="fixed-target" class="w-full md:w-7/12 xl:w-1/2">
+                            <div class="pt-24" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+                                <div class="w-full md:pr-12">
+                                    <a href="latest/the-home-of-thursday.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/pinned-post-thumbnail/dsc02705-3.jpg" />
+                                    </a>
+                                    <h3 class="hidden md:block type-xl">
+                                        <a href="latest/the-home-of-thursday.html">
+        The home of Thursday
+      </a>
+                                    </h3>
+                                    <h3 class="block md:hidden type-lg">
+                                        <a href="latest/the-home-of-thursday.html">
+        The home of Thursday
+      </a>
+                                    </h3>
+                                    <a href="latest/the-home-of-thursday.html" class="hidden md:block type-xl text-grey-500 mb-16">
+      Read more
+    </a>
+                                    <a href="latest/the-home-of-thursday.html" class="block md:hidden type-base mb-16">
+      Read more
+    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-5/12 xl:w-1/2 pt-24">
+                            <div class="flex flex-wrap md:flex-nowrap">
+                                <div class="md:w-1/2 w-full  md:mr-12  md:mt-0">
+                                    <a href="https://open.spotify.com/playlist/12qvfF9NQauCrZ3uEAakj3?si=e458b8cc382e47ce" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14" target="_blank">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/asset-7-at-2x-100.jpg" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="https://open.spotify.com/playlist/12qvfF9NQauCrZ3uEAakj3?si=e458b8cc382e47ce" target="_blank">
+        The summer has arrived and so has the new quarterly Thursday playlist. Enjoy it
+      </a>
+                                    </h3>
+                                    <a href="https://open.spotify.com/playlist/12qvfF9NQauCrZ3uEAakj3?si=e458b8cc382e47ce" class="type-base mb-16 block" target="_blank">
+      Listen Now
+    </a>
+                                </div>
+                                <div class="md:w-1/2 w-full  mt-24  md:mt-0">
+                                    <a href="latest/strategist.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/frame-25.png" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="latest/strategist.html">
+        Job Opening: Strategist
+      </a>
+                                    </h3>
+                                    <a href="latest/strategist.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap md:flex-nowrap">
+                                <div class="md:w-1/2 w-full  md:mr-12  md:mt-0">
+                                    <a href="latest/hiring-full-stack-developer.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/frame-29.png" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="latest/hiring-full-stack-developer.html">
+        Job Opening: Full Stack Developer
+      </a>
+                                    </h3>
+                                    <a href="latest/hiring-full-stack-developer.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                                <div class="md:w-1/2 w-full  mt-24  md:mt-0">
+                                    <a href="latest/dba-winners.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/cfa-thurs-thumb2.png" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="latest/dba-winners.html">
+        We are really proud and excited to shout about Thursday winning our first Design Effectiveness Award, 2021.
+      </a>
+                                    </h3>
+                                    <a href="latest/dba-winners.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap md:flex-nowrap">
+                                <div class="md:w-1/2 w-full  md:mr-12  md:mt-0">
+                                    <a href="events/no-more-bullsht.html" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/asset-80-1.jpg" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="events/no-more-bullsht.html">
+        Thursday Thoughts
+      </a>
+                                    </h3>
+                                    <a href="events/no-more-bullsht.html" class="type-base mb-16 block">
+      Read more
+    </a>
+                                </div>
+                                <div class="md:w-1/2 w-full  mt-24  md:mt-0">
+                                    <a href="https://open.spotify.com/playlist/5O2PeoubibTJGuvGxP2ej1?si=ciOulSchQrO7LyT5eXaKkw" class="delay__image-wrapper hover-scale-image__wrapper relative block mb-14" target="_blank">
+                                        <img class="w-full delay__image hover-scale-image" src="assets/img/resized/post-thumbnail/asset-4-at-2x-100.jpg" />
+                                    </a>
+                                    <h3 class="type-lg">
+                                        <a href="https://open.spotify.com/playlist/5O2PeoubibTJGuvGxP2ej1?si=ciOulSchQrO7LyT5eXaKkw" target="_blank">
+        New playlist. Sit back, grab a coffee. We&#039;ve got you.
+      </a>
+                                    </h3>
+                                    <a href="https://open.spotify.com/playlist/5O2PeoubibTJGuvGxP2ej1?si=ciOulSchQrO7LyT5eXaKkw" class="type-base mb-16 block" target="_blank">
+      Listen Now
+    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="pt-20 md:pt-56 clear-both relative z-10 type-3xl fade-in">
+                    <div class="flex flex-col xl:flex-row xl:flex-wrap">
+                        <div class="xl:w-1/2">
+                            <a href="mailto:gruezi@euphoria-ag.ch">gruezi@euphoria-ag.ch</a>
+                        </div>
+                        <a href="tel:41627718209">062 771 82 09</a>
+                    </div>
+                    <div class="flex flex-col xl:flex-row xl:flex-wrap md:mb-16 xl:my-24 xl:leading-tight">
+                        <ul>
+                            <li class="md:mb-1">
+                                <a href="https://www.instagram.com/euphoria-ag" target="_blank" rel="noreferrer noopener">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/euphoria-ag/" target="_blank" rel="noreferrer noopener">Facebook</a>
+                            </li>
+                        </ul>
+                        <address class="hidden lg:block not-italic">
+      <a href="https://www.google.com/maps/dir//Thursday,+Cromwell+House,+15+Andover+Rd,+Winchester+SO23+7BT/@51.068092,-1.318540, 12z/" target="_blank">
+        Hauptstrasse 19<br>
+        5734 Reinach<br>
+        Switzerland
+      </a>
+    </address>
+                    </div>
+                    <div class="flex flex-col xl:flex-row xl:flex-wrap xl:flex-row-reverse xl:justify-end xl:min-h-28">
+                        <newsletter></newsletter>
+                        <!-- <div class="xl:w-1/2 mt-16 xl:mt-0">
+                            <a href="privacy.html" class="type-xs pb-2">Privacy Policy</a>
+                        </div> -->
+                    </div>
+                </footer>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/app9004.js"></script>
+</body>
+
+</html>
